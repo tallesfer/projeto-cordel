@@ -6,7 +6,7 @@
     padding: 0px;
     font-size: 1em;
 }
-body{
+html ,body{
     min-height: 100vh;
     background-color: black;
 }
@@ -24,7 +24,7 @@ header p {
 }
 header h1 {
     font-family: "Passion One", sans-serif;
-    padding: 20px;
+    padding-top: 20px;
     font-size: 10em;
 }
 header p {
@@ -52,6 +52,7 @@ section.bg{
     color: white;
     padding-top: 20px;
     padding-bottom: 40px;
+    
 
 }
 section#i1{
@@ -64,6 +65,7 @@ section#i1 > p {
     background-color: rgba(0, 0, 0, 0.575);
     width: 600px;
     padding-bottom: 2px;
+    display: inline-block;
     
 }
 
@@ -79,6 +81,8 @@ section#i2 > p {
     background-color: rgba(0, 0, 0, 0.575);
     width: 600px;
     padding-bottom: 2px;
+    display: inline-block;
+
     
 }
 footer{
